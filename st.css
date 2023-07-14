@@ -1,0 +1,62 @@
+i {
+    position: relative;
+  }
+  i select {
+    right: 0px;  
+  }
+  
+  table {
+      font-family:Arial, Helvetica, sans-serif;
+      color:#666;
+      font-size:12px;
+      text-shadow: 1px 1px 0px #fff;	
+      background:#eaebec;
+      margin:20px;
+      border:black 1px solid;	
+      border-radius:3px;	
+      border-collapse: collapse;
+      box-shadow: 0 1px 2px #d1d1d1;
+  }
+  
+  table, th, td {
+      border: 1px solid black;
+  }
+  
+   
+  table th {
+    width:150px;
+  }
+  
+  .context-icon {
+      float:right;
+      cursor:default;
+      color: green;
+      padding-right: 10px;
+      padding-left: 10px;
+      
+      position: absolute;
+  }
+  
+  .filter {            
+       visibility: hidden;
+       display: block;
+       position: absolute;     
+       background-color: #f9f9f9;
+       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+       padding: 2px 6px;          
+       max-height: 0px;
+       z-index: 1000;
+       height:auto;
+       transition: visibility 200ms, max-height 200ms ease-in-out;
+       
+       right:0;
+  }
+  
+  .filter-open {
+      display: block;
+      max-height: 300px;
+      visibility: visible;
+  }
+  .filter {
+    right: 50%;
+}
